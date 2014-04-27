@@ -34,7 +34,7 @@ public static void main(String[] args) {
         Logger.getLogger(Prjava02.class.getName()).log(Level.SEVERE, null, ex);
     }
     //byte[] ipAddr = addr.getAddress();
-    String hostname = addr.getHostName(); System.out.println("hostname="+hostname);
+    String hostname = addr.getHostName(); System.out.println("host name="+hostname);
     System.out.println("Nom de l'usuari: " + System.getProperty("user.name")); System.out.println("Carpeta Personal: " + System.getProperty("user.home")); System.out.println("Sistema operatiu: " + System.getProperty("os.name")); System.out.println("Versió OS: " + System.getProperty("os.version"));
 
 
